@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav#nav1{ margin-top: 24px; }
+nav#nav1 > a{ background:#B9E1FF; color:#000; padding:10px; text-decoration:none; border-radius:5px; font-family:"Arial Black", Gadget, sans-serif; }
+nav#nav1 > a:hover{ background: #BBEA00; }
+nav#nav1 > a:active{ background: #EEFFA8; }
+		body {
+		background-color: linen;
+		}
+		h1 {
+	  	color: maroon;
+	  	margin-left: 40px;
+		}	
+		h2 {
+	  	color: blue;
+	  	margin-left: 20px;
+		}	
+</style>
+<h1 id="myH1">Voice Menu</h1>
+<script>
+var bleep1 = new Audio();	
+var bleep = new Audio();
+var bleep2 = new Audio();
+var bleep3 = new Audio();
+var bleep4 = new Audio();
+var bleep5 = new Audio();
+var bleep6 = new Audio();
+
+bleep1.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/cnn.mp3';
+bleep.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/bbc.mp3';
+bleep2.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543497/Voice/france.mp3';
+bleep3.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543497/Voice/germany.mp3';
+bleep4.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/italy.mp3';
+bleep5.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543538/Voice/russia.mp3';
+bleep6.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/bg.mp3';
+
+</script>
+</head>
+<body>
+
+  <nav id="nav1">   
+    <a href="https://go.cnn.com/?stream=cnn%3Fsr" target="_blank" onmouseover="bleep1.play()">CNN</a>
+    <a href="https://www.radio.net/s/bbcworldservice" target="_blank" onmouseover="bleep.play()">BBC</a>
+    <a href="https://www.france24.com/en/live" target="_blank" onmouseover="bleep2.play()">France</a>
+    <a href="https://www.radio.net/p/dwwirtschaft" target="_blank" onmouseover="bleep3.play()">Germany</a>
+    <a href="https://www.radio.net/s/olgiataallnews" target="_blank" onmouseover="bleep4.play()">Italy</a>
+    <a href="https://www.radio.net/s/mayak" target="_blank" onmouseover="bleep5.play()">Russia</a>    
+    <a href="https://bg-radio.org/#bg" target="_blank" onmouseover="bleep6.play()">Bulgaria</a>
+    
+  </nav>
+  
+<!--   Another way to display the buttons    -->
+    <br> <br>  
+<a href="https://go.cnn.com/?stream=cnn%3Fsr" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep1.play()">CNN</button></a>    
+<a href="https://www.radio.net/s/bbcworldservice" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep.play()">BBC</button></a>
+<a href="https://www.france24.com/en/live" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep2.play()">France</button></a>
+<a href="https://www.radio.net/p/dwwirtschaft" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep3.play()">Germany</button></a>  
+<a href="https://www.radio.net/s/olgiataallnews" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep4.play()">Italy</button></a>  
+<a href="https://www.radio.net/s/mayak" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep5.play()">Russia</button></a>  
+<a href="https://bg-radio.org/#bg" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep6.play()">Bulgaria</button></a>  
+  <br> <br>
+
+<h2>	Click ME to activate mouse over.</h2>  	
+<!--	Click 	<input type="button"  value=" ME : ) " onclick="location.href=location.href" > to refresh the screen.  -->	
+<br> <br> 
+
+<h2> Do what you love, and you’ll never have to work again :-)</h2>
+
+</p>
+</body>
+</html>
