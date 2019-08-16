@@ -19,7 +19,9 @@ nav#nav1 > a:active{ background: #EEFFA8; }
 		}	
 </style>
 <h1 id="myH1">Voice Menu</h1>
+
 <script>
+
 var bleep1 = new Audio();	
 var bleep = new Audio();
 var bleep2 = new Audio();
@@ -27,6 +29,7 @@ var bleep3 = new Audio();
 var bleep4 = new Audio();
 var bleep5 = new Audio();
 var bleep6 = new Audio();
+var bleep7 = new Audio();
 
 bleep1.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/cnn.mp3';
 bleep.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/bbc.mp3';
@@ -35,7 +38,7 @@ bleep3.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543497/Voice/
 bleep4.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/italy.mp3';
 bleep5.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543538/Voice/russia.mp3';
 bleep6.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/bg.mp3';
-
+bleep7.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/editor.mp3';
 </script>
 </head>
 <body>
@@ -48,6 +51,7 @@ bleep6.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/
     <a href="https://www.radio.net/s/olgiataallnews" target="_blank" onmouseover="bleep4.play()">Italy</a>
     <a href="https://www.radio.net/s/mayak" target="_blank" onmouseover="bleep5.play()">Russia</a>    
     <a href="https://bg-radio.org/#bg" target="_blank" onmouseover="bleep6.play()">Bulgaria</a>
+    <a href="https://1.bivaood.com/4/#" target="_blank" onmouseover="bleep7.play()">Voice Editor</a>    
     
   </nav>
   
@@ -60,6 +64,8 @@ bleep6.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/
 <a href="https://www.radio.net/s/olgiataallnews" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep4.play()">Italy</button></a>  
 <a href="https://www.radio.net/s/mayak" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep5.play()">Russia</button></a>  
 <a href="https://bg-radio.org/#bg" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep6.play()">Bulgaria</button></a>  
+<a href="https://1.bivaood.com/4/#" target="_blank"><button style="color:green;border-radius;10px;"  onmouseover="bleep7.play()">Voice Editor</button></a>  
+    
   <br> <br>
 
 <h2>	Click ME to activate mouse over.</h2>  	
@@ -71,3 +77,6 @@ bleep6.src = 'https://res.cloudinary.com/dimiter/video/upload/v1565543498/Voice/
 </p>
 </body>
 </html>
+<!--    embed sound into your webpage   -->
+<!--   https://www.codeproject.com/Articles/5164334/Create-Music-Playlist-with-HTML5-and-JavaScript   -->
+<!--   Insert Audio into a Website Using HTML5   https://www.youtube.com/watch?v=9F49XgzlZgA   -->
